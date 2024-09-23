@@ -16,7 +16,7 @@ export function Button({
     className,
     children,
     onClick,
-    redirectUrl = '/saibamais',
+    redirectUrl = '/',
     type = 'button',
     disabled = false,
 }: ButtonProps) {
