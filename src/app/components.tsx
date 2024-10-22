@@ -47,22 +47,27 @@ interface CardProps {
   className?: string;
 }
 
+// define o css do element "Card"
 export const Card = ({ children, className = '' }: CardProps) => {
   return <div className={`border p-4 rounded-lg shadow-md bg-white dark:bg-gray-700 ${className}`}>{children}</div>;
 };
 
+// define o css do element "CardHeader"
 export const CardHeader = ({ children, className = '' }: CardProps) => {
   return <div className={`mb-4 flex items-center gap-4 ${className}`}>{children}</div>;
 };
 
+// define o css do element "CardTitle"
 export const CardTitle = ({ children, className = '' }: CardProps) => {
   return <h3 className={`text-xl font-bold ${className}`}>{children}</h3>;
 };
 
+// define o css do element "CardContent"
 export const CardContent = ({ children, className = '' }: CardProps) => {
   return <div className={`text-sm ${className}`}>{children}</div>;
 };
 
+// define o css do element "CardDescription"
 export const CardDescription = ({ children, className = '' }: CardProps) => {
   return <p className={`text-gray-600 dark:text-gray-300 ${className}`}>{children}</p>;
 };
