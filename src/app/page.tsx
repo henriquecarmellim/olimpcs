@@ -1,6 +1,6 @@
 // src/app/app.tsx
 import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle } from './components';
-import { Flame, Medal, Trophy, Circle, Book, Calendar, ChartBar, Earth} from "lucide-react"
+import { Flame, Medal, Trophy, Circle, Book, Calendar, ChartBar, Earth, Coffee} from "lucide-react"
 import Link from 'next/link';
 
 export default function App() {
@@ -124,19 +124,21 @@ export default function App() {
               </Card>
             </a>
 
-            <Card className="bg-white dark:bg-gray-700 shadow-lg rounded-lg overflow-hidden transition transform hover:scale-105">
-              <CardHeader className="flex flex-row items-center gap-4 p-4 dark:bg-gray-600">
-                <Medal className="w-8 h-8 text-gray-700 dark:text-gray-200" />
-                <CardTitle className="text-xl font-semibold text-gray-900 dark:text-white">
-                  Atletas Recordistas
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="p-4">
-                <CardDescription className="text-gray-600 dark:text-gray-300">
-                  Descubra os atletas que fizeram história ganhando o maior número de medalhas.
-                </CardDescription>
-              </CardContent>
-            </Card>
+            <a href="/java">
+              <Card className="bg-white dark:bg-gray-700 shadow-lg rounded-lg overflow-hidden transition transform hover:scale-105">
+                <CardHeader className="flex flex-row items-center gap-4 p-4 dark:bg-gray-600">
+                  <Coffee className="w-8 h-8 text-gray-700 dark:text-gray-200" />
+                  <CardTitle className="text-xl font-semibold text-gray-900 dark:text-white">
+                    Java
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="p-4">
+                  <CardDescription className="text-gray-600 dark:text-gray-300">
+                    Descubra mais sobre a linguagem de Programação Java.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            </a>
 
             <Card className="bg-white dark:bg-gray-700 shadow-lg rounded-lg overflow-hidden transition transform hover:scale-105">
               <CardHeader className="flex flex-row items-center gap-4 p-4 dark:bg-gray-600">
