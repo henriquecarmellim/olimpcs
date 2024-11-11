@@ -85,9 +85,7 @@ export default function App() {
                         <h3 className="text-xl font-semibold">3. Estrutura do Código Java</h3>
                         <p className="text-gray-500 dark:text-gray-400">Exemplo simples de código em Java:</p>
                         <pre id="code" className="bg-gray-100 dark:bg-gray-800 text-black p-4 rounded-md">
-                            <code>{`public class main {\n    public static void main(String[] args) {\n        System.out.println("Olá, Mundo!");\n    }\n}`}
-                                
-                            </code>
+                            <code>{`public class main {\n    public static void main(String[] args) {\n        System.out.println(&quot;Olá, Mundo!&quot;);\n    }\n}`}</code>
                         </pre>
                     </div>
 
