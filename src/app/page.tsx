@@ -5,6 +5,7 @@ import Link from 'next/link';
 
 export default function App() {
   return (
+    /* definindo para ser responsivo */
     <div className="flex flex-col min-h-screen">
       <header className="px-4 lg:px-6 h-14 flex items-center bg-whitesmoke shadow-md w-full z-10 top-0 fixed">
         <Link className="flex items-center justify-center" href="#">
